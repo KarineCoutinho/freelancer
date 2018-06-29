@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Freelancer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Montserrat:400,900" rel="stylesheet">
-    <link href="https://file.myfontastic.com/XxebShaUMrrMaWJjQknfTg/icons.css" rel="stylesheet">
+    <link href="assets/icons/fontawesome-free-5.1.0-web/css/all.css" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <h4>START BOOTSTRAP</h4>
-        <ul>
+        <h1 class="title">START BOOTSTRAP</h1>
+        <ul class="menu">
             <li>PORTFOLIO</li>
             <li>ABOUT</li>
             <li>CONTACT</li>
@@ -20,35 +20,39 @@
     </nav>
     <section class="home">
         <img src="assets/images/profile.png" alt="Profile picture">
-        <h1>START BOOTSTRAP</h1>
-        <div>
+        <h1 class="titleHome"><strong>START BOOTSTRAP</strong></h1>
+        <div class="starHome">
             <hr>
-            <i class="icon-star"></i>
+            <i id="star" class="fas fa-star"></i>
             <hr>
         </div>
-        <h3>Web Developer - Graphic Artist - User Experience Design</h3>
+        <h3 class="subtitleHome">Web Developer - Graphic Artist - User Experience Designer</h3>
     </section>
     <section class="portfolio">
-        <h2>PORTFOLIO</h2>
-        <div>
+        <h2 class="titlePortfolio" >PORTFOLIO</h2>
+        <div class="starPortfolio">
             <hr>
-            <i class="icon-star"></i>
+            <i id="star" class="fas fa-star"></i>
             <hr>
         </div>
         <figure>
-            <img src="assets/images/portfolio/cabin.png" alt="Cabin">
-            <img src="assets/images/portfolio/cake.png" alt="Cake">
-            <img src="assets/images/portfolio/circus.png" alt="Circus">
-            <img src="assets/images/portfolio/game.png" alt="Game">
-            <img src="assets/images/portfolio/safe.png" alt="Safe">
-            <img src="assets/images/portfolio/submarine.png" alt="Submarine">
+            <div class="row1">
+                <img src="assets/images/portfolio/cabin.png" alt="Cabin">
+                <img src="assets/images/portfolio/cake.png" alt="Cake">
+                <img src="assets/images/portfolio/circus.png" alt="Circus">
+            </div>
+            <div class="row2">
+                <img src="assets/images/portfolio/game.png" alt="Game">
+                <img src="assets/images/portfolio/safe.png" alt="Safe">
+                <img src="assets/images/portfolio/submarine.png" alt="Submarine">
+            </div>
         </figure>
     </section>
     <section class="about">
-        <h2>ABOUT</h2>
-        <div>
+        <h2 class="titleAbout">ABOUT</h2>
+        <div class="starAbout">
             <hr>
-            <i class="icon-star"></i>
+            <i class="fas fa-star"></i>
             <hr>
         </div>
         <div class="textAbout">
@@ -57,7 +61,7 @@
         </div>
         <h3><i class="icon-download"></i> Download Now!</h3>
     </section>
-    <section class="contact">
+    <!-- <section class="contact">
         <h2>CONTACT ME</h2>
         <form action="">
             <h4 class="name">Name</h4>
@@ -75,11 +79,11 @@
         <div class="web">
             <h3>AROUND THE WEB</h3>
             <div>
-                <i class="icon-facebook"></i>
-                <i></i>
-                <i class="icon-twitter-alt"></i>
-                <i class="icon-linkedin"></i>
-                <i class="icon-dribbble"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-dribbble"></i>
             </div>     
         </div>
         <div class="aboutFreelancer">
@@ -89,6 +93,6 @@
     </section>
     <footer>
         <small>Copyright © Your Website 2017</small>
-    </footer>
+    </footer> -->
 </body>
 </html>
