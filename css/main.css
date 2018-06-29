@@ -85,7 +85,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: black;
+    color: #212529;
     height: 834px;
     width: 100%;
     background-color: white;
@@ -100,7 +100,6 @@ hr{
     left: 540px;
 }
 .starPortfolio{
-    color: black;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -112,7 +111,7 @@ hr{
     font-size: 25.5px;
 }
 .starPortfolio hr{
-    background-color: black;
+    background-color: #212529;
 }
 figure{
     display: flex;
@@ -156,17 +155,17 @@ figure img{
     font-size: 26px;
 }
 .textAbout p{
-    margin-right: 47px;
+    margin: 10px;
 }
 .textAbout{
     display: flex;
-    margin-left: 329px;
-    margin-right: 300px;
-    font-weight: 500;
-    font-size: 17px;
-    margin-top: 30px;
-    letter-spacing: -0.3px;
-    line-height: 1.7;
+    margin-left: 322px;
+    margin-right: 322px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
 }
 .download{
     border: 2px solid white;
@@ -196,6 +195,7 @@ figure img{
     color: white;
 }
 .contact{
+    color: #212529;
     display: flex;
     flex-direction: column;
     height: 842px;
@@ -206,6 +206,7 @@ figure img{
     text-align: center;
 }
 .contact h2{
+    color: #212529;
     position: absolute;
     top: 57px;
     left: 520px;
@@ -221,7 +222,7 @@ figure img{
     font-size: 27px;
 }
 .starContact hr{
-    background-color: black;
+    background-color: #212529;
 }
 #formContact{
     position: absolute;
@@ -234,8 +235,9 @@ figure img{
     top: 205px;
     left: 302px;
     font-size: 21px;
-    color: rgb(104, 101, 101);
+    color: #8e959c;
     font-weight: 400;
+    font-family: 'Lato', sans-serif;
 }
 label{
     padding-top: 4px;
@@ -243,6 +245,7 @@ label{
     letter-spacing: -1px;
 }
 input{
+    border-color: #e9ecef;
     padding: 11px;
     height: 1px;
     width: 677px;
